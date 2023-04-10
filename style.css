@@ -7,17 +7,26 @@ body {
 }
 
 h1 {
-    margin: 50px 0 0;
+    position: relative;
+    bottom: 100px;
+    margin: 0 0 0;
     font-family: 'Sacramento', cursive;
     font-size: 4.37em;
     color: #D5B4B4;
-    line-height: 2;
+
 }
+
 #under-header {
-    color:#D5B4B4;
+    color: #D5B4B4;
+    position: relative;
+    bottom: 100px;
 }
+#pad {
+    padding-bottom: 20px;
+}
+
 h2 {
-    
+
     font-weight: 500;
     font-family: 'Merriweather', serif;
     font-size: 1.25rem;
@@ -29,24 +38,25 @@ h3 {
 
 .top-container {
     background-color: #F5EBEB;
-    padding-top: 50px;
+    padding-top: 450px;
     position: relative;
 
 
 }
 
 .middle-container {
-    padding-top: 50px;
-    padding-bottom: 10px;
-    background-color: #E4D0D0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
 
 }
 
 .bottom-container {
 
     padding-top: 15px;
-    background-color: #F5EBEB;
-
+    padding-bottom: 2px;
+    background-color: #867070;
+    color: #F5EBEB
 }
 
 .top-cloud {
@@ -63,6 +73,17 @@ h3 {
     right: 550px;
 }
 
+.top-cloud-3 {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.top-cloud-4 {
+    position: absolute;
+    right: 300px;
+}
+
 .bottom-cloud {
     position: absolute;
     bottom: 300px;
@@ -75,9 +96,24 @@ h3 {
     left: 700px;
 }
 
+.img-skill-1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.img-skill-2 {
+    width: 25%;
+    float: right;
+
+}
+
 a {
     text-decoration: none;
-    color: #867070;
+    color: #352c2c;
 }
 
 .sp1 {
@@ -112,3 +148,45 @@ a {
     top: 5px;
     margin-right: 5px;
 }
+
+.skills {
+    margin-bottom: 0;
+    padding: 40px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    display: inline-block;
+}
+
+.contact-me {
+    margin-top: 40px;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 8px;
+    border-color: #867070;
+    width: 6%;
+    opacity: 0.5;
+    margin: 90px auto 10px auto;
+}
+.btn {
+    -webkit-border-radius: 23;
+    -moz-border-radius: 23;
+    border-radius: 23px;
+    font-family: Arial;
+    color: #F5EBEB;
+    font-size: 20px;
+    background: #867070;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #221f32;
+    text-decoration: none;
+  }
