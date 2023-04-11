@@ -2,6 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
 
 
 }
@@ -21,6 +22,7 @@ h1 {
     position: relative;
     bottom: 100px;
 }
+
 #pad {
     padding-bottom: 20px;
 }
@@ -108,7 +110,10 @@ h3 {
 .img-skill-2 {
     width: 25%;
     float: right;
+}
 
+.middle {
+    padding-left: 50px;
 }
 
 a {
@@ -174,6 +179,7 @@ hr {
     opacity: 0.5;
     margin: 90px auto 10px auto;
 }
+
 .btn {
     -webkit-border-radius: 23;
     -moz-border-radius: 23;
@@ -184,9 +190,9 @@ hr {
     background: #867070;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background: #221f32;
     text-decoration: none;
-  }
+}
